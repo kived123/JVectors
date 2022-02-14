@@ -24,6 +24,10 @@ jobs:
           command: | 
              cd JVector
              mvn -B -DskipTests clean package
+             mkdir -p /tmp/JVecArtif
+             cp artifacts/* /tmp/JVecArtif
+      - store_artifacts:
+          path: /tmp/JVecArtif
 
      
 # Invoke jobs via workflows
