@@ -45,7 +45,7 @@ public class Base implements ActionListener  {
         this.tfVBZ = tfVBZ;
 
         this.tfK1 = tfK1;
-        this.tfK2 = tfK1;
+        this.tfK2 = tfK2;
 
         taOut = textArea;
 
